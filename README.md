@@ -118,10 +118,22 @@ Attualmente il supporto P2SH è limitato agli script multisig, che rappresentano
 
 1. Clona o scarica il repository.
 2. Assicurati di avere Python 3 installato e i requisiti:
+   
+   Linux/macOS (bash/zsh):
    ```bash
    # Consigliato ambiente virtuale
-   python -m venv venv
+   python3 -m venv venv   # oppure: python -m venv venv
    source venv/bin/activate
+
+   # Installazione requisiti
+   pip install -r requirements.txt
+   ```
+
+   Windows (PowerShell):
+   ```powershell
+   # Consigliato ambiente virtuale
+   python -m venv venv
+   .\venv\Scripts\Activate.ps1
 
    # Installazione requisiti
    pip install -r requirements.txt
